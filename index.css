@@ -1,0 +1,285 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.ourvision,
+.founder {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
+  font-family: "Cormorant Garamond", serif;
+}
+.title_gallery
+{
+    background-color: #ffffff;
+    padding:10px;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+}
+.body{
+    background-color: #000000;
+}
+.title {
+  font-weight: bold;
+  text-align: center;
+  color:#ff0000;
+}
+.our_vision img {
+  margin-left: 1rem;
+  border-radius: 50%;
+  box-shadow: 12px 12px 12px #808080;
+}
+.our_vision {
+  display: flex;
+  gap: 1rem;
+  color:#ffffff;
+  justify-content: space-around;
+}
+.description {
+  box-sizing: border-box;
+  padding: 2rem;
+  background-color: rgb(150, 221, 19);
+  margin-right: 1rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 22px;
+  font-style: italic;
+  box-shadow: 12px 12px 12px #808080;
+}
+body {
+  scroll-behavior: smooth;
+}
+.list_founders {
+  display: flex;
+  justify-content: space-around;
+}
+.card-img-top {
+  padding: 1rem;
+}
+.card {
+  box-shadow: 12px 12px 12px #808080;
+}
+.gallery
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid black;
+    padding:2rem;
+    gap:3rem;
+    margin:4rem;
+    flex-wrap: wrap;
+    border-radius: 22px;
+    box-shadow: 12px 12px 12px #808080;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+
+.gallery1
+{
+    display:flex;
+    justify-content: space-around;
+    gap:10rem;
+    flex-wrap: wrap;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+.nav-link
+{
+    color:rgb(196, 203, 209);
+}
+.btn {
+  padding: 4px;
+  border: 1px solid black;
+}
+.footer
+{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(23, 111, 188);
+    color:black;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: "Cormorant Garamond", serif;
+}
+.footer1
+{
+    display:grid;
+    grid-template-columns: repeat(3,100fr);
+    align-items: center;
+    gap:1rem;
+    text-align: center;
+    padding:2rem;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    list-style-type: none;
+}
+.innersection_footer
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    color:#ffffff;
+    width:200px;
+}
+.btn:hover:active{
+    background-color: #ffffff;
+    color:#000000;
+}
+.btn:hover{
+    color:#ffffff;
+    background-color: #000000;
+}
+/*---GALLERY PAGE--*/
+.accordion-body
+{
+ display:flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ gap:3rem;
+ align-items: center;
+ text-align: center;
+} 
+.accordion{
+
+gap:2rem;
+margin-top:2rem;
+margin-bottom:5rem;
+text-align: center;
+font-family: "Cormorant Garamond", serif;
+font-weight: bold;
+font-style: normal;
+text-align: center;
+}
+.accordion-item
+{
+    width:1000px;
+    text-align:center;
+    gap:2rem;
+    width:100%;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    font-size: 42px;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.accordion-body img{
+    width:200px;
+}
+#collapsepart1
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    text-align: center;
+}
+.accordion-button
+{
+    color:green;
+    text-align: center;
+    
+}
+/*---------*/
+
+@media (max-width: 1000px) {
+  #social_media {
+    visibility: hidden;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    background-color: transparent;
+    text-align: center;
+  }
+  .navbar {
+    background-color: transparent;
+  }
+  .founder
+  {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list_founders
+  {
+    margin-left:0.8rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:4rem;
+  }
+
+.card-body img
+{
+    width:250px;
+ 
+}
+#carding
+{
+   width:300px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: cornflowerblue;
+}
+.our_vision
+{
+    margin:2px;
+    width:385px
+}
+.our_vision img
+{
+    display:none;
+}
+.gallery{
+    width:300px;
+    margin-left:2rem;
+}
+.gallery img
+{
+    width:250px;
+}
+.accordion
+{
+    width:100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:green;
+}
+}
